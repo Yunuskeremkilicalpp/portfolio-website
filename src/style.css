@@ -91,3 +91,11 @@ p {
     height: 80px;
     margin: 30px;
 }
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+}
