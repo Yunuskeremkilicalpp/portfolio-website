@@ -42,6 +42,10 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 50px;
+}
+
 p {
     margin: 0;
     font-size: 30px;
@@ -58,7 +62,7 @@ p {
 
 
 .hero-text {
-    margin-left: 80px
+    margin-left: 80px;
     margin-bottom: 200px;
 }
 
@@ -98,4 +102,25 @@ p {
 .sub-section {
     display: flex;
     justify-content: space-around;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container h{
+    display:flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 200px;
+    height: 500px;
+    border:1px solid black;
+}
+
+.project-container {
+    display: flex;
 }
